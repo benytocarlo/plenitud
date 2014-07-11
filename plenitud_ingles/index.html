@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<title>Plenitud</title>
+  	<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="contenedor cont_indice">
+      <div class="indice">
+        <div class="accordionButton closed indice1"><h2>Fundamentals</h2></div>
+        <div class="accordionContent links_fundamentales">
+          <h4><img src="images/bullet_blue_21x21.png" alt=""><a href="fundamentales.html#Brand-Strategy">Brand Strategy</a></h4>
+          <ul>
+            <li><a href="fundamentales.html#Brand-Profile">Brand Profile</a></li>
+            <li><a href="fundamentales.html#Local-Brand-Positioning">Local Brand Positioning</a></li>
+            <li><a href="fundamentales.html#Brand-Story">Brand Story</a></li>
+            <li><a href="fundamentales.html#Task-Profile">Task Profile</a></li>
+            <li><a href="fundamentales.html#Marketing-Challenge">Marketing Challenge</a></li>
+            <li><a href="fundamentales.html#Channel-Rank">Channel Rank</a></li>            
+            <li><a href="fundamentales.html#Price-strategy">Price strategy</a></li>
+          </ul>
+        </div>
+        <div class="accordionButton closed indice2"><h2>Process</h2></div>
+        <div class="accordionContent links_proceso">
+          <h4><a href="proceso.html#CP-Objetives">CP Objetives</a></h4>
+          <ul>
+            <li><a href="proceso.html#CP-Calendar">CP Calendar</a></li>
+            <li><a href="proceso.html#Plenitud-Campaign-Idea-2013">Plenitud Campaign Idea 2013</a></li>
+            <li><a href="proceso.html#Core-Engagement-Mechanism">Core Engagement Mechanism</a></li>
+            <li><a href="proceso.html#Pathway">Pathway</a></li>
+            <li><a href="proceso.html#Media-Ecosystem">Media Ecosystem</a></li>
+            <li><a href="proceso.html#Product-News">Product News</a></li>
+          </ul>
+        </div>
+        <div class="accordionButton closed indice3"><h2>Execution</h2></div>
+        <div class="accordionContent links_ejecucion">
+          <h4><a href="ejecucion.html#CP-Elements">CP Elements – Portfolio</a></h4>
+          <ul>
+            <li><a href="ejecucion.html#CP-Elements-8">CP Elements - LIMO</a></li>
+            <li><a href="ejecucion.html#CP-Elements-14">CP Elements - IPAD</a></li>
+            <li><a href="ejecucion.html#CP-Elements-29">CP Elements - HIP</a></li>
+          </ul>
+        </div>
+        <div class="accordionButton closed indice4"><h2>Guidelines</h2></div>
+        <!--div class="accordionContent">
+          <p>contenido 4</p>
+        </div-->
+      </div>      
+      <ul class="footer1">
+        <li><a href=""><img src="images/iconf1.png" alt=""></a></li>
+        <li><a href=""><img src="images/iconf2.png" alt=""></a></li>
+        <li><a href=""><img src="images/iconf3.png" alt=""></a></li>
+        <li><a href=""><img src="images/iconf4.png" alt=""></a></li>
+      </ul>
+      <ul class="footer2">
+        <li><a href="#" class="btn_inicio"></a></li>
+        <li><a href="indice.html" class="btn_indice"></a></li>
+      </ul>
+    </div> 
+        
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+      $('div.accordionButton').click(function() {
+        if ($(this).hasClass('closed')) {
+          $('div.accordionButton').addClass('closed');
+          $(this).removeClass('closed');
+          $('div.accordionContent').slideUp('normal');
+          $(this).next().slideDown('normal');
+        } else {
+          $(this).addClass('closed');
+          $(this).next().slideUp('normal');
+        }
+      });
+    </script>
+  </body>
+</html>

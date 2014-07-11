@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<title>Plenitud</title>
+  	<link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="contenedor cont_indice">
+      <div class="indice">
+        <div class="accordionButton closed indice1"><h2>Fundamentales</h2></div>
+        <div class="accordionContent links_fundamentales">
+          <h4><img src="images/bullet_blue_21x21.png" alt=""><a href="fundamentales.html#Estrategia-de-Marca">Estrategia de Marca</a></h4>
+          <ul>
+            <li><a href="fundamentales.html#Perfil-de-Marca">Perfil de Marca</a></li>
+            <li><a href="fundamentales.html#Posicionamiento-Local">Posicionamiento local de la marca</a></li>
+            <li><a href="fundamentales.html#Historia-de-la-Marca">Historia de la marca</a></li>
+            <li><a href="fundamentales.html#Perfil-de-Tareas">Perfil de tareas</a></li>
+            <li><a href="fundamentales.html#Desafio-de-Marketing">Desafío de Marketing</a></li>
+            <li><a href="fundamentales.html#Ranking de Canales">Ranking de canales</a></li> 
+            <li><a href="fundamentales.html#Estrategia-de-Precios">Estrategia de Precio</a></li>
+          </ul>
+        </div>
+        <div class="accordionButton closed indice2"><h2>Proceso</h2></div>
+        <div class="accordionContent links_proceso">
+          <h4><a href="proceso.html#Objetivos-CP">CP Objetives</a></h4>
+          <ul>
+            <li><a href="proceso.html#Calendario-CP">Calendario CP</a></li>
+            <li><a href="proceso.html#Idea-de-Campaña-Plenitud-2013">Idea de Campaña Plenitud 2013</a></li>
+            <li><a href="proceso.html#Mecanismo-de-Involucramiento">Mecanismo de Involucramiento</a></li>
+            <li><a href="proceso.html#Pathway">Pathway</a></li>
+            <li><a href="proceso.html#Ecosistema-de-Medios">Ecosistema de Medios</a></li>
+            <li><a href="proceso.html#Noticias-Sobre-el-Producto">Noticias Sobre el Producto</a></li>
+          </ul>
+        </div>
+        <div class="accordionButton closed indice3"><h2>Ejecución</h2></div>
+        <div class="accordionContent links_ejecucion">
+          <h4><a href="ejecucion.html#Elementos-de-CP">Elementos de CP – Portafolio</a></h4>
+          <ul>
+            <li><a href="ejecucion.html#Elementos-de-CP-8">Elementos CP - LIMO</a></li>
+            <li><a href="ejecucion.html#Elementos-de-CP-14">Elementos de CP – IPAD</a></li>
+            <li><a href="ejecucion.html#Elementos-de-CP-29">Elementos de CP – HIP</a></li>
+          </ul>
+        </div>
+        <div class="accordionButton closed indice4"><h2>Guía</h2></div>
+        <!--div class="accordionContent">
+          <p>contenido 4</p>
+        </div-->
+      </div>      
+      <ul class="footer1">
+        <li><a href=""><img src="images/iconf1.png" alt=""></a></li>
+        <li><a href=""><img src="images/iconf2.png" alt=""></a></li>
+        <li><a href=""><img src="images/iconf3.png" alt=""></a></li>
+        <li><a href=""><img src="images/iconf4.png" alt=""></a></li>
+      </ul>
+      <ul class="footer2">
+        <li><a href="#" class="btn_inicio"></a></li>
+        <li><a href="indice.html" class="btn_indice"></a></li>
+      </ul>
+    </div> 
+        
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+      $('div.accordionButton').click(function() {
+        if ($(this).hasClass('closed')) {
+          $('div.accordionButton').addClass('closed');
+          $(this).removeClass('closed');
+          $('div.accordionContent').slideUp('normal');
+          $(this).next().slideDown('normal');
+        } else {
+          $(this).addClass('closed');
+          $(this).next().slideUp('normal');
+        }
+      });
+    </script>
+  </body>
+</html>
