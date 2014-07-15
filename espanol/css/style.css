@@ -170,6 +170,7 @@ p{
 
 .cabecera h4{
 	font-family: Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
 	margin-bottom: 5px;
 }
 
@@ -497,11 +498,14 @@ p{
 	clear: both;
 }
 
-.lista_flecha li h5{
-	float: left;
+.lista_flecha li h3 {
+    color: #19a1c7;
+    float: left;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-style: italic;
     padding: 0 20px 10px 0;
     text-align: right;
-    width: 190px;
+    width: 210px;
 }
 
 .lista_flecha p{
@@ -643,7 +647,10 @@ li{
 
 .descarga{
 	background: url('../images/iconf4.png') no-repeat left center;
+	color: #A1A2A4;
 	display: block;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
     height: 41px;
     line-height: 18px;
     margin: 0 auto;
@@ -789,6 +796,7 @@ li{
 
 .fila{
 	margin-bottom: 20px;
+	overflow: hidden;
 }
 
 .fila p{
@@ -850,7 +858,10 @@ li{
 }
 
 .descargar2{
+	color: #A1A2A4;
 	display: block;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
 	text-align: center;
 	width: 95px;
 }
@@ -980,11 +991,11 @@ li{
 
 .cont_descargas{
 	right: 70px;
-	top: 270px;
+	top: 206px;
 }
 
 .cont_descargas2{
-	bottom: 170px;
+	bottom: 230px;
 	right: 70px;
 }
 
@@ -1275,3 +1286,25 @@ li{
 }
 
 .fade, .scale{ display: none;}
+
+.titulo_des{
+	color: #19A1C7;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 26px;
+	font-style: italic;
+}
+
+.descarga3 {
+    padding: 20px 0 0 20px;
+}
+
+.lista_left .lista1 {
+    margin-top: 40px;
+}
+
+.descarga_flota{
+	bottom: 160px;
+    left: 330px;
+    padding: 20px 0 0 46px;
+    position: absolute;
+}
