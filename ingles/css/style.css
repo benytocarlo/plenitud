@@ -170,6 +170,7 @@ p{
 
 .cabecera h4{
 	font-family: Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
 	margin-bottom: 5px;
 }
 
@@ -500,11 +501,14 @@ p{
 	clear: both;
 }
 
-.lista_flecha li h5{
+.lista_flecha li h3{
+	color: #19A1C7;
 	float: left;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
     padding: 0 20px 10px 0;
     text-align: right;
-    width: 190px;
+    width: 210px;
 }
 
 .lista_flecha p{
@@ -646,7 +650,10 @@ li{
 
 .descarga{
 	background: url('../images/iconf4.png') no-repeat left center;
+	color: #A1A2A4;
 	display: block;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
     height: 41px;
     line-height: 18px;
     margin: 0 auto;
@@ -656,6 +663,10 @@ li{
 
 .descarga2{
 	padding: 20px 0 0 42px;
+}
+
+.descarga3{
+	padding: 20px 0 0 20px;
 }
 
 .descarga:hover{
@@ -792,6 +803,7 @@ li{
 
 .fila{
 	margin-bottom: 20px;
+	overflow: hidden;
 }
 
 .fila p{
@@ -833,16 +845,6 @@ li{
 	text-align: center;
 }
 
-.listae1{
-	margin: 0 auto;
-	width: 830px;
-}
-
-.listae2{
-	margin: 0 auto;
-	width: 650px;
-}
-
 .limt{
 	margin: 50px 10px 0 !important;
 }
@@ -853,7 +855,10 @@ li{
 }
 
 .descargar2{
+	color: #A1A2A4;
 	display: block;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
 	text-align: center;
 	width: 95px;
 }
@@ -863,11 +868,6 @@ li{
 	top: 180px;
 }
 
-.listae3{
-	margin: 0 auto;
-	width: 950px;
-}
-
 .subtitle2{
 	color: #19A1C7;
 	font-family: Georgia, Times, "Times New Roman", serif;
@@ -875,18 +875,13 @@ li{
 	margin: 10px 0;
 }
 
-.listae4{
-	margin: 0 auto;
-	width: 880px;
-}
-
 .descargar_left{
 	left: 180px;
-	top: 220px;
+	top: 240px;
 }
 
 .descargar_left2{
-	left: 180px;
+	left: 186px;
 	top: 220px;
 }
 
@@ -914,7 +909,27 @@ li{
 
 .descargar_left7{
 	bottom: 160px;
-	left: 310px;
+	left: 344px;
+}
+
+.listae1{
+	margin: 0 auto;
+	width: 830px;
+}
+
+.listae2{
+	margin: 0 auto;
+	width: 650px;
+}
+
+.listae3{
+	margin: 0 auto;
+	width: 950px;
+}
+
+.listae4{
+	margin: 0 auto;
+	width: 880px;
 }
 
 .listae5{
@@ -983,11 +998,11 @@ li{
 
 .cont_descargas{
 	right: 70px;
-	top: 270px;
+	top: 206px;
 }
 
 .cont_descargas2{
-	bottom: 170px;
+	bottom: 230px;
 	right: 70px;
 }
 
@@ -1274,3 +1289,25 @@ li{
 }
 
 .fade, .scale{ display: none;}
+
+.titulo_des{
+	color: #19A1C7;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 26px;
+	font-style: italic;
+}
+
+.lista_left .lista1{
+	margin-top: 40px;
+}
+
+.lista_left .lista2{
+	margin-top: 30px;
+}
+
+.descarga_flota{
+	bottom: 160px;
+    left: 330px;
+    padding: 20px 0 0 46px;
+    position: absolute;
+}

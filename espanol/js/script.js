@@ -146,7 +146,7 @@ $(document).ready(function(){
 		$('#bar-20', currentSlide).animate({height: 264}, 1500);
 		$('#bar-21', currentSlide).animate({height: 254}, 1500);
 		$('#bar-22', currentSlide).animate({height: 244}, 1500);
-		$('#bar-23', currentSlide).animate({height: 250}, 1500);
+		$('#bar-23', currentSlide).animate({height: 240}, 1500);
 		$('#bar-24', currentSlide).animate({height: 240}, 1500);
 		$('#bar-25', currentSlide).animate({height: 240}, 1500);
 		$('#bar-26', currentSlide).animate({height: 238}, 1500);
